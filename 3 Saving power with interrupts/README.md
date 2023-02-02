@@ -76,4 +76,8 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 
 # Screenshots and Answers to Questions
-**Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+Link to screenshots: https://docs.google.com/document/d/1CPLLIU_5ID2G-VpDwkrKti4Gp1iyL9q7m6ydPCvIMeA/edit?usp=sharing
+
+1. Because the polling example is always checking, compared to the interrupt that is reactionary, it is causing the bias/baseline in the polling example to be higher thab the interrupt example.
+2. Even with the LED unplugged, there is still power increase when you press the button because of the pull-up resistor.
+
